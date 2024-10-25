@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'
 
 export default function layout(props) {
 	const { children } = props||{}
+    
 	const pathname = usePathname()
     return (
         <>
